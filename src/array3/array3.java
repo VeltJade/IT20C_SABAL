@@ -4,34 +4,15 @@
  * and open the template in the editor.
  */
 
-package it20c_sabal;
+package array3;
 
 /**
  *
  * @author acer
  */
-public class arrays {
+public class array3 {
     public static void main(String[] args) {
-            /*
-         *Simple Implementation
-         */
-        String[] cats = {"Ginger", "Calico", "Sphinx", "White"};
-        System.out.print(cats[0]+", " + cats[1]+", "+ cats[2]+", "+ cats[3]);
-        System.out.println("");
-        
-        /*
-         *Display via Loop
-         */
-        
-        for(int i = 0; i <= cats.length; i++){
-            System.out.println(cats[i]);
-            System.out.println("");
-        }
-            
-        /*
-        *multidimensional array
-        */    
-       char[][] gwapa ={
+        char[][] gwapa ={
             {'x', 'x', ' ', ' ', ' ', 'x', 'x'},
             {' ', ' ', 'x', ' ', 'x', ' ', ' '},
             {'x', 'x', ' ', 'x', ' ', 'x', 'x'},
@@ -49,5 +30,5 @@ public class arrays {
             System.out.println();
         }
     }
-}
-  
+    }
+    
