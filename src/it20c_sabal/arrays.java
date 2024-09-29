@@ -1,9 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
 package it20c_sabal;
 
-public class dev_arrays {
+/**
+ *
+ * @author acer
+ */
+public class arrays {
     public static void main(String[] args) {
-        /*
+            /*
          *Simple Implementation
          */
         String[] cats = {"Ginger", "Calico", "Sphinx", "White"};
@@ -40,7 +49,5 @@ public class dev_arrays {
             System.out.println();
         }
     }
-    
 }
-        
-
+  
