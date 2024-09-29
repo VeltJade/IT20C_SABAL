@@ -7,22 +7,40 @@
 
 package arraylist;
 
-import java.util.ArrayList;
+
 /**
  *
  * @author acer
  */
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> names = new ArrayList();
-        names.add("Velt");
-        names.add("Jade");
-        names.add("Saliz");
-        names.add("Jhandie");
-        System.out.print(names);
-    }
+        ItemManager list = new ItemManager();
+        
+                list.insertNames("Velt");
+		 list.insertNames("Jade");
+	     
+		 list.displayNames();
+            
+                 
+                 System.out.println();
+	     list.updateNames(0, "Thea");
+	     list.updateNames(1, "Saliz");
+             list.displayNames();
+             
+             
+             System.out.println();
+	     list.displayNames();
+	     list.findName("Velt");
+	     list.findName("Saliz");
+             
+             
+             System.out.println();
+	     list.deleteName(0);
+	     list.displayNames();
 
-    static void get(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+	}
+
 }
+    
+
+    
